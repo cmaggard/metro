@@ -11,6 +11,9 @@
     };
     failure = function(err) {
       alert(err);
+      this.lat = 0;
+      this.lon = 0;
+      this.acc = 0;
       return null;
     };
     radians = function(x) {
